@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Local Playground / WordPress artifacts
+.playground/
+wordpress/
+*.sqlite
+debug.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+npm-debug.log*

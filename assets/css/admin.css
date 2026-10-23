@@ -1,0 +1,159 @@
+/* Brew & Bean – settings screen (WooCommerce → Brew & Bean). */
+.brewbean-settings {
+	max-width: 900px;
+}
+
+.brewbean-settings__header {
+	align-items: center;
+	background: linear-gradient(120deg, #2b1e17 0%, #4a3426 100%);
+	border-radius: 12px;
+	color: #f6efe6;
+	display: flex;
+	gap: 16px;
+	margin: 16px 0 20px;
+	padding: 22px 26px;
+}
+
+.brewbean-settings__header h1 {
+	color: #fff;
+	font-size: 24px;
+	line-height: 1.2;
+	margin: 0 0 4px;
+	padding: 0;
+}
+
+.brewbean-settings__header p {
+	color: #e9dccb;
+	font-size: 14px;
+	margin: 0;
+}
+
+.brewbean-settings__logo svg {
+	display: block;
+	height: 48px;
+	width: 48px;
+}
+
+.brewbean-settings__logo svg circle {
+	fill: #f6efe6;
+}
+
+.brewbean-settings__logo svg path:last-child {
+	stroke: #f6efe6;
+}
+
+.brewbean-settings__form {
+	background: #fff;
+	border: 1px solid #e0d6cc;
+	border-radius: 12px;
+	padding: 4px 26px 10px;
+}
+
+.brewbean-settings__form h2 {
+	border-top: 1px solid #f0e9e1;
+	font-size: 16px;
+	margin: 0;
+	padding: 22px 0 0;
+}
+
+.brewbean-settings__form h2:first-of-type {
+	border-top: 0;
+}
+
+.brewbean-section-intro {
+	color: #7a6a5f;
+	margin: 4px 0 0;
+}
+
+.brewbean-settings .form-table th {
+	padding-left: 0;
+	width: 220px;
+}
+
+.brewbean-settings .form-table td {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.brewbean-input-prefix {
+	color: #50575e;
+	font-weight: 600;
+	margin-right: 6px;
+}
+
+/* Toggle switch built on a real checkbox (keyboard + screen reader friendly). */
+.brewbean-toggle {
+	align-items: center;
+	cursor: pointer;
+	display: inline-flex;
+	gap: 12px;
+	position: relative;
+}
+
+.brewbean-toggle input {
+	height: 22px;
+	left: 0;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 40px;
+}
+
+.brewbean-toggle__track {
+	background: #c3c4c7;
+	border-radius: 999px;
+	flex: none;
+	height: 22px;
+	position: relative;
+	transition: background 0.15s;
+	width: 40px;
+}
+
+.brewbean-toggle__track::after {
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	content: "";
+	height: 16px;
+	left: 3px;
+	position: absolute;
+	top: 3px;
+	transition: transform 0.15s;
+	width: 16px;
+}
+
+.brewbean-toggle input:checked + .brewbean-toggle__track {
+	background: #c8873a;
+}
+
+.brewbean-toggle input:checked + .brewbean-toggle__track::after {
+	transform: translateX(18px);
+}
+
+.brewbean-toggle input:focus-visible + .brewbean-toggle__track {
+	box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2271b1;
+}
+
+.brewbean-settings .button-primary {
+	background: #2b1e17;
+	border-color: #2b1e17;
+	border-radius: 999px;
+	padding: 2px 22px;
+}
+
+.brewbean-settings .button-primary:hover,
+.brewbean-settings .button-primary:focus {
+	background: #c8873a;
+	border-color: #c8873a;
+}
+
+/* Order screen */
+.brewbean-admin-delivery h3 {
+	margin-top: 14px;
+}
+
+.brewbean-admin-delivery .dashicons {
+	color: #c8873a;
+	margin-right: 4px;
+}

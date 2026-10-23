@@ -1,0 +1,186 @@
+/*
+Theme Name:   Brew & Bean Coffee
+Theme URI:    https://github.com/yusufdeveloper2903/brewbean-woo-enhancements
+Description:  Small Twenty Twenty-Five child theme for the Brew & Bean demo store: coffee palette, typography and a few WooCommerce polish rules. Demo / portfolio project.
+Author:       Yusuf Yuldashev
+Template:     twentytwentyfive
+Version:      1.0.0
+Requires at least: 6.5
+Requires PHP: 8.0
+License:      GPL-2.0-or-later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  brewbean-coffee
+*/
+
+/* Header: subtle divider + room for the cart button. */
+header.wp-block-template-part {
+	border-bottom: 1px solid rgba(43, 30, 23, 0.08);
+	background: var(--wp--preset--color--base);
+}
+
+header .wp-block-site-title a {
+	letter-spacing: -0.01em;
+}
+
+/* Product cards. */
+.wc-block-product .wc-block-components-product-image img,
+.wp-block-woocommerce-product-image img {
+	border-radius: 16px;
+	background: var(--wp--preset--color--accent-5);
+}
+
+.wc-block-product .wp-block-post-title {
+	font-family: var(--wp--preset--font-family--literata);
+	font-weight: 600;
+}
+
+.wc-block-product .wp-block-post-title a {
+	text-decoration: none;
+}
+
+.wc-block-product .wp-block-post-title a:hover {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+.wc-block-components-product-sale-badge,
+.wc-block-grid__product-onsale {
+	background: var(--wp--preset--color--accent-1) !important;
+	border: 0 !important;
+	border-radius: 999px !important;
+	color: #fff !important;
+	letter-spacing: 0.06em;
+	padding: 4px 12px !important;
+}
+
+/* Classic cart & checkout pages (shortcodes) inside the block theme. */
+.woocommerce-cart .wp-block-post-content,
+.woocommerce-checkout .wp-block-post-content {
+	--bb-field-border: rgba(43, 30, 23, 0.2);
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce form .form-row select,
+.woocommerce-page form .form-row input.input-text {
+	background: #fff;
+	border: 1px solid var(--bb-field-border, rgba(43, 30, 23, 0.2));
+	border-radius: 10px;
+	padding: 0.7em 0.9em;
+}
+
+.woocommerce table.shop_table {
+	border-radius: 14px;
+	border-color: rgba(43, 30, 23, 0.12);
+}
+
+.woocommerce #payment,
+.woocommerce-checkout #payment {
+	background: var(--wp--preset--color--accent-5);
+	border-radius: 14px;
+}
+
+.woocommerce #payment div.payment_box {
+	background: #fff;
+}
+
+.woocommerce #payment div.payment_box::before {
+	border-bottom-color: #fff;
+}
+
+.woocommerce .button,
+.woocommerce button.button,
+.woocommerce a.button,
+.woocommerce #place_order {
+	background: var(--wp--preset--color--contrast);
+	border-radius: 999px;
+	color: var(--wp--preset--color--base);
+	font-weight: 600;
+	padding: 0.85em 1.6em;
+}
+
+.woocommerce .button:hover,
+.woocommerce button.button:hover,
+.woocommerce #place_order:hover {
+	background: var(--wp--preset--color--accent-1);
+	color: #fff;
+}
+
+.woocommerce-checkout h3 {
+	font-size: var(--wp--preset--font-size--large);
+}
+
+/* Catalog sorting select. */
+.woocommerce-ordering select,
+.wc-block-catalog-sorting select,
+.wp-block-woocommerce-catalog-sorting select {
+	appearance: none;
+	background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%232B1E17' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 14px center;
+	border: 1px solid rgba(43, 30, 23, 0.2);
+	border-radius: 999px;
+	color: inherit;
+	font: inherit;
+	font-size: 0.9rem;
+	padding: 0.55em 2.6em 0.55em 1.1em;
+}
+
+/* Quantity field next to the add to cart button. */
+.woocommerce .quantity input.qty,
+.wp-block-add-to-cart-form .quantity input.qty {
+	background: #fff;
+	border: 1px solid rgba(43, 30, 23, 0.2);
+	border-radius: 999px;
+	font: inherit;
+	height: 3.2em;
+	text-align: center;
+	width: 4.6em;
+}
+
+/* Classic checkout: details on the left, sticky order summary on the right. */
+.woocommerce-checkout .wp-block-post-content > .woocommerce {
+	max-width: var(--wp--style--global--wide-size, 1200px);
+}
+
+@media (min-width: 1000px) {
+	.woocommerce-checkout form.checkout::after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+
+	.woocommerce-checkout form.checkout #customer_details {
+		float: left;
+		width: 56%;
+	}
+
+	.woocommerce-checkout #customer_details .col-1,
+	.woocommerce-checkout #customer_details .col-2 {
+		float: none;
+		width: 100%;
+	}
+
+	.woocommerce-checkout #order_review_heading,
+	.woocommerce-checkout #order_review {
+		float: right;
+		width: 39%;
+	}
+
+	.woocommerce-checkout #order_review_heading {
+		margin-top: 0;
+	}
+
+	.woocommerce-checkout #order_review {
+		position: sticky;
+		top: 24px;
+	}
+}
+
+.woocommerce-checkout #order_review_heading {
+	font-size: var(--wp--preset--font-size--large);
+}
+
+.woocommerce-checkout-review-order-table .product-name .wc-item-meta,
+.woocommerce-checkout-review-order-table .product-name dl.variation {
+	color: var(--wp--preset--color--accent-4);
+	font-size: 0.85em;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "brewbean-woo-enhancements",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brew & Bean - WooCommerce store enhancements (side cart, quick view, delivery date, subscribe & save). Demo / portfolio project.",
+  "author": "Yusuf Yuldashev",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "dev": "npx -y @wp-playground/cli@3.1.60 server --port=9402 --workers=1 --login --mount=.:/wordpress/wp-content/plugins/brewbean-woo-enhancements --mount=./theme/brewbean-coffee:/wordpress/wp-content/themes/brewbean-coffee --blueprint=./blueprint.json",
+    "screenshots": "node tools/screenshots.mjs",
+    "images": "node tools/generate-images.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

@@ -1,0 +1,429 @@
+# Copyright (C) 2026 Yusuf Yuldashev
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brew & Bean – WooCommerce Enhancements 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yusufdeveloper2903/brewbean-woo-enhancements/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-23T15:13:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: brewbean-woo-enhancements\n"
+
+#. Plugin Name of the plugin
+#: brewbean-woo-enhancements.php
+msgid "Brew & Bean – WooCommerce Enhancements"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: brewbean-woo-enhancements.php
+msgid "https://github.com/yusufdeveloper2903/brewbean-woo-enhancements"
+msgstr ""
+
+#. Description of the plugin
+#: brewbean-woo-enhancements.php
+msgid "Store enhancements for the Brew & Bean coffee shop: AJAX side cart, free-shipping progress bar, product quick view, preferred delivery date at checkout and per-product subscribe & save. Demo / portfolio project."
+msgstr ""
+
+#. Author of the plugin
+#: brewbean-woo-enhancements.php
+msgid "Yusuf Yuldashev"
+msgstr ""
+
+#. Author URI of the plugin
+#: brewbean-woo-enhancements.php
+msgid "https://github.com/yusufdeveloper2903"
+msgstr ""
+
+#: brewbean-woo-enhancements.php:74
+msgid "Brew & Bean – WooCommerce Enhancements requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/Features/AddToCart.php:63
+msgid "That product could not be found."
+msgstr ""
+
+#: includes/Features/AddToCart.php:76
+msgid "Please choose product options before adding this product to your cart."
+msgstr ""
+
+#: includes/Features/DeliveryDate.php:91
+msgid "Please enter a valid preferred delivery date."
+msgstr ""
+
+#. translators: %s: earliest date
+#: includes/Features/DeliveryDate.php:96
+#, php-format
+msgid "We roast to order – the earliest delivery date is %s."
+msgstr ""
+
+#. translators: %s: latest date
+#: includes/Features/DeliveryDate.php:103
+#, php-format
+msgid "Please choose a delivery date on or before %s."
+msgstr ""
+
+#: includes/Features/DeliveryDate.php:108
+msgid "We do not deliver on Sundays. Please choose another day."
+msgstr ""
+
+#: includes/Features/DeliveryDate.php:135
+msgid "We roast every bag to order. Deliveries Monday to Saturday."
+msgstr ""
+
+#: includes/Features/DeliveryDate.php:136
+msgid "We roast every bag to order."
+msgstr ""
+
+#: includes/Features/DeliveryDate.php:143
+#: includes/Features/DeliveryDate.php:175
+#: includes/Features/DeliveryDate.php:260
+#: includes/Features/DeliveryDate.php:286
+#: includes/Settings.php:199
+msgid "Preferred delivery date"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Features/DeliveryDate.php:174
+#, php-format
+msgid "%s is a required field."
+msgstr ""
+
+#: includes/Features/DeliveryDate.php:266
+msgid "Not specified"
+msgstr ""
+
+#: includes/Features/DeliveryDate.php:305
+msgid "Delivery"
+msgstr ""
+
+#. translators: %s: formatted date
+#: includes/Features/DeliveryDate.php:308
+#, php-format
+msgid "Preferred delivery date: %s"
+msgstr ""
+
+#: includes/Features/DeliveryDate.php:325
+msgid "Delivery date"
+msgstr ""
+
+#: includes/Features/QuickView.php:90
+#: includes/Settings.php:69
+msgid "Quick view"
+msgstr ""
+
+#. translators: %s: product name
+#: includes/Features/QuickView.php:92
+#, php-format
+msgid "of %s"
+msgstr ""
+
+#: includes/Features/QuickView.php:135
+msgid "Close quick view"
+msgstr ""
+
+#: includes/Features/QuickView.php:153
+msgid "Product not found."
+msgstr ""
+
+#: includes/Features/ShippingProgress.php:87
+msgid "Nice! Your order ships for free."
+msgstr ""
+
+#. translators: %s: amount left to spend, e.g. $12.00
+#: includes/Features/ShippingProgress.php:91
+#, php-format
+msgid "You are %s away from free shipping."
+msgstr ""
+
+#. translators: 1: shipping method name, 2: threshold amount, e.g. $50.00
+#: includes/Features/ShippingProgress.php:162
+#, php-format
+msgid "%1$s – free on orders over %2$s"
+msgstr ""
+
+#: includes/Features/ShippingProgress.php:211
+msgid "Free-shipping progress for the current cart."
+msgstr ""
+
+#: includes/Features/SideCart.php:58
+msgid "Brew & Bean cart button"
+msgstr ""
+
+#: includes/Features/SideCart.php:107
+msgid "Open cart"
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:45
+msgid "Every week"
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:46
+msgid "Every 2 weeks"
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:47
+msgid "Every 4 weeks"
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:128
+#: includes/Settings.php:70
+msgid "Subscribe & save"
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:146
+msgid "Let customers choose a recurring delivery and reward them with a discount on this product."
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:152
+msgid "Enable subscribe & save"
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:153
+msgid "Show the subscription option on the product page and in quick view."
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:160
+msgid "Subscription discount (%)"
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:162
+msgid "Percentage taken off the regular/sale price (and every variation) when a customer subscribes."
+msgstr ""
+
+#: includes/Features/SubscribeSave.php:323
+#: includes/Features/SubscribeSave.php:374
+msgid "Subscription"
+msgstr ""
+
+#. translators: 1: delivery interval, e.g. "Every 2 weeks", 2: discount percentage
+#: includes/Features/SubscribeSave.php:399
+#, php-format
+msgid "%1$s · save %2$s%%"
+msgstr ""
+
+#: includes/Settings.php:59
+#: includes/Settings.php:196
+msgid "Side cart"
+msgstr ""
+
+#: includes/Settings.php:59
+msgid "Enable the AJAX slide-out side cart"
+msgstr ""
+
+#: includes/Settings.php:60
+msgid "Auto-open"
+msgstr ""
+
+#: includes/Settings.php:60
+msgid "Open the side cart automatically after a product is added"
+msgstr ""
+
+#: includes/Settings.php:61
+msgid "Progress bar"
+msgstr ""
+
+#: includes/Settings.php:61
+msgid "Show the free-shipping progress bar (side cart and cart page)"
+msgstr ""
+
+#: includes/Settings.php:65
+msgid "Free-shipping threshold"
+msgstr ""
+
+#: includes/Settings.php:66
+msgid "Cart subtotal (after product discounts) that unlocks free shipping."
+msgstr ""
+
+#: includes/Settings.php:68
+msgid "Free-shipping rule"
+msgstr ""
+
+#: includes/Settings.php:68
+msgid "Make every shipping rate free once the threshold is reached"
+msgstr ""
+
+#: includes/Settings.php:69
+msgid "Enable product quick view on shop and archive pages"
+msgstr ""
+
+#: includes/Settings.php:70
+msgid "Enable subscribe & save (configured per product)"
+msgstr ""
+
+#: includes/Settings.php:71
+msgid "Delivery date field"
+msgstr ""
+
+#: includes/Settings.php:71
+msgid "Ask for a preferred delivery date at checkout"
+msgstr ""
+
+#: includes/Settings.php:72
+msgid "Required field"
+msgstr ""
+
+#: includes/Settings.php:72
+msgid "Make the delivery date required"
+msgstr ""
+
+#: includes/Settings.php:78
+msgid "Lead time (days)"
+msgstr ""
+
+#: includes/Settings.php:79
+msgid "Earliest selectable date, counted from today. We roast to order."
+msgstr ""
+
+#: includes/Settings.php:86
+msgid "Booking window (days)"
+msgstr ""
+
+#: includes/Settings.php:87
+msgid "Latest selectable date, counted from today."
+msgstr ""
+
+#: includes/Settings.php:89
+msgid "Sundays"
+msgstr ""
+
+#: includes/Settings.php:89
+msgid "No deliveries on Sundays"
+msgstr ""
+
+#: includes/Settings.php:150
+msgid "Brew & Bean settings"
+msgstr ""
+
+#: includes/Settings.php:151
+#: includes/Settings.php:325
+msgid "Brew & Bean"
+msgstr ""
+
+#: includes/Settings.php:176
+msgid "Settings"
+msgstr ""
+
+#: includes/Settings.php:196
+msgid "A slide-out mini cart powered by the WooCommerce Store API."
+msgstr ""
+
+#: includes/Settings.php:197
+msgid "Free-shipping progress"
+msgstr ""
+
+#: includes/Settings.php:197
+msgid "Nudge customers towards free shipping."
+msgstr ""
+
+#: includes/Settings.php:198
+msgid "Catalog"
+msgstr ""
+
+#: includes/Settings.php:198
+msgid "Shop page and product page features."
+msgstr ""
+
+#: includes/Settings.php:199
+msgid "An extra checkout field stored on the order (HPOS compatible)."
+msgstr ""
+
+#: includes/Settings.php:258
+msgid "The booking window must be longer than the lead time, so it was adjusted."
+msgstr ""
+
+#: includes/Settings.php:316
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/Settings.php:326
+msgid "Store enhancements for your coffee shop. Toggle features and tune the details below."
+msgstr ""
+
+#: includes/Settings.php:334
+msgid "Save settings"
+msgstr ""
+
+#: templates/progress-bar.php:20
+msgid "Progress towards free shipping"
+msgstr ""
+
+#: templates/purchase-options.php:22
+msgid "Purchase options"
+msgstr ""
+
+#: templates/purchase-options.php:27
+msgid "One-time purchase"
+msgstr ""
+
+#. translators: %s: discount percentage
+#: templates/purchase-options.php:40
+#, php-format
+msgid "Subscribe & save %s%%"
+msgstr ""
+
+#: templates/purchase-options.php:42
+msgid "Best value"
+msgstr ""
+
+#: templates/purchase-options.php:44
+msgid "on every bag"
+msgstr ""
+
+#: templates/purchase-options.php:45
+msgid "Freshly roasted and delivered on your schedule. Skip or cancel anytime."
+msgstr ""
+
+#: templates/purchase-options.php:50
+msgid "Deliver"
+msgstr ""
+
+#: templates/quick-view.php:31
+msgid "Sale"
+msgstr ""
+
+#: templates/quick-view.php:35
+msgid "Product images"
+msgstr ""
+
+#. translators: %d: image number
+#: templates/quick-view.php:43
+#, php-format
+msgid "Show image %d"
+msgstr ""
+
+#: templates/quick-view.php:117
+msgid "Out of stock"
+msgstr ""
+
+#: templates/quick-view.php:121
+msgid "View full details"
+msgstr ""
+
+#: templates/side-cart.php:17
+msgid "Your cart"
+msgstr ""
+
+#: templates/side-cart.php:21
+msgid "Close cart"
+msgstr ""
+
+#: templates/side-cart.php:32
+msgid "Subtotal"
+msgstr ""
+
+#: templates/side-cart.php:35
+msgid "Shipping and taxes are calculated at checkout."
+msgstr ""
+
+#: templates/side-cart.php:37
+msgid "View cart"
+msgstr ""
+
+#: templates/side-cart.php:38
+msgid "Checkout"
+msgstr ""
